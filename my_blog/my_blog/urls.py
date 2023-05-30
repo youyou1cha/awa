@@ -23,6 +23,7 @@ urlpatterns = [
 
     path('article/',include('article.urls',namespace='article')),
     path('userprofile/',include('userprofile.urls',namespace='userprofile')),
+    # path('password-reset/',include('password_reset.urls')),
 ]
 if "debug_toolbar" in settings.INSTALLED_APPS:
     import debug_toolbar
