@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from . import settings
+# from . import settings
+from django.conf.urls.static import static
+from django.conf import settings
 
 
 urlpatterns = [
@@ -25,8 +27,11 @@ urlpatterns = [
     path('userprofile/',include('userprofile.urls',namespace='userprofile')),
     # path('password-reset/',include('password_reset.urls')),
 ]
+
+urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
 if "debug_toolbar" in settings.INSTALLED_APPS:
     import debug_toolbar
     urlpatterns = [
         path('__debug__/', include(debug_toolbar.urls)),
     ] + urlpatterns
+

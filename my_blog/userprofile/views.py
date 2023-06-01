@@ -66,3 +66,19 @@ def user_delete(request,id):
             return HttpResponse("你没有删除操作的权限")
     else:
         return HttpResponse("近接受post请求")
+    
+@login_required(login_url='/userprofile/login')
+def profile_edit(request,id):
+    user = User.objects.get(id=id)
+
+    if Profile.objects.filter(user_id=id).exists():
+        profile = Profile.objects.get(user_id=id)
+    else:
+        profile = Profile.objects.get(user=user)
+
+    profile_form = ProfileForm(request.POST,request.FILES)
+
+    if profile_form.is_valid():
+        if 'avatar' in request.FILES:
+            profile.avater = profile_cd["avatar"]
+    

@@ -6,13 +6,20 @@ from django.http import HttpResponse
 from .models import ArticlePost
 from .forms import ArticlePostForm
 from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
 
 # 试图函数
 def article_list(request):
     articles = ArticlePost.objects.all()
-    print(articles)
-    context = {'articles': articles}
-    return render(request, 'article/list.html', context)
+    # context = {'articles': articles}
+    # return render(request, 'article/list.html', context)
+
+    paginator = paginator(article_list,1)
+    page = request.GET.get('page')
+    articles = paginator.get_page(page)
+    context = {'articles':articles}
+    # context = {'articles'}
+    return render(request,'article/list.html',context)
 
 
 def article_detail(request, id):
@@ -21,6 +28,8 @@ def article_detail(request, id):
     # return render(request, 'article/detail.html', context)
 
     #  markdown语法
+    article.total_views += 1
+    article.save(update_fields=['total_views'])
     article.body = markdown.markdown(article.body,
                                      extensions=[
                                          #
@@ -30,7 +39,7 @@ def article_detail(request, id):
                                      )
     context = {'article':article}
     return render(request,'article/detail.html',context)
-
+@login_required(login_url='/userprofile/logine/')
 def article_create(request):
     if request.method == 'POST':
         article_post_form = ArticlePostForm(data=request.POST)

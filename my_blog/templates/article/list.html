@@ -32,6 +32,39 @@
         </div>
         {% endfor %}
 
+        <span>
+            <small class="col align-self-end" style="color: gray;">
+                浏览:{{ article.total_views }}
+            </small>
+        </span>
+    </div>
+</div>
+
+<div class="pagination row">
+    <div class="step-links">
+        <span class="step-links">
+            {% if articles.has_previous %}
+                <a href="?page=1" class="btn btn-success">
+                    &laquo;1
+                </a>
+                <span></span>
+                <a href="?page={{ articles.previous_page_number }}" class="btn btn-secondary">
+                    {{ articles.previous_page_number }}
+                </a>
+            {% endif %}
+
+            <span class="current btn btn-danger btn-lg">
+                {{ aritcles.number }}
+            </span>
+            {% if articles.has_next %}
+                <a href="?page={{ articles.next_page_number }}" class="btn btn-secondary">
+                    {{ articles.next_page_number }}
+                </a>
+                <a href="?page={{ articles.previous_page_number }}" class="btn btn-success">
+                    {{ articles.previous_page_number }} &raquo;
+                </a>
+            {% endif %}
+        </span>
     </div>
 </div>
 {% endblock content %}
