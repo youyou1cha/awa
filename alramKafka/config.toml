@@ -1,0 +1,5 @@
+[kafka]
+kafka_broker       = "localhost:9092"
+topic              = "prometheus_data"
+heartbeat_interval = 60
+heartbeat_topic    = 'heartbeat'
