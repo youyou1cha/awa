@@ -4,3 +4,11 @@
 annotated_image.png
 comparison_result.csv
 compareJson2.py
+alramKafka/testtoa.py
+alramKafka/log_file.log
+alramKafka/*.pyc
+.vscode/launch.json
+*.pyc
+*.toml
+alramKafka/config.toml
+*.toml
