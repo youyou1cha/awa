@@ -2,4 +2,9 @@
 kafka_broker       = "localhost:9092"
 topic              = "prometheus_data"
 heartbeat_interval = 60
-heartbeat_topic    = 'heartbeat'
+heartbeat_topic    = 'prometheus_data'
+
+
+# topic:  FM_OMC_ALARM_SEND_TOPIC_ITSYSTEM
+# 内网：192.168.100.229:8426,192.168.100.230:8426,192.168.100.231:8426 
+# DCN-BOSS地址:137.0.46.87:9426,137.0.46.88:9426,137.0.46.89:9426

@@ -1,0 +1,41 @@
+2023-06-16 09:50:44,485 - DEBUG - Debug message
+2023-06-16 09:50:44,485 - INFO - Info message
+2023-06-16 09:50:44,485 - WARNING - Warning message
+2023-06-16 09:50:44,485 - ERROR - Error message
+2023-06-16 09:50:44,485 - CRITICAL - Critical message
+2023-06-16 09:50:44,491 - DEBUG - {"eventTime": "2023-06-16 09:50:44", "msgType": "heartbeat"}
+2023-06-16 09:51:44,668 - DEBUG - {"eventTime": "2023-06-16 09:51:44", "msgType": "heartbeat"}
+2023-06-16 09:52:44,803 - DEBUG - {"eventTime": "2023-06-16 09:52:44", "msgType": "heartbeat"}
+2023-06-16 09:53:44,937 - DEBUG - {"eventTime": "2023-06-16 09:53:44", "msgType": "heartbeat"}
+2023-06-16 09:59:05,693 - DEBUG - Debug message
+2023-06-16 09:59:05,695 - INFO - Info message
+2023-06-16 09:59:05,698 - WARNING - Warning message
+2023-06-16 09:59:05,699 - ERROR - Error message
+2023-06-16 09:59:05,700 - CRITICAL - Critical message
+2023-06-16 09:59:05,713 - DEBUG - {"eventTime": "2023-06-16 09:59:05", "msgType": "heartbeat"}
+2023-06-16 10:00:05,935 - DEBUG - {"eventTime": "2023-06-16 10:00:05", "msgType": "heartbeat"}
+2023-06-16 10:01:06,074 - DEBUG - {"eventTime": "2023-06-16 10:01:06", "msgType": "heartbeat"}
+2023-06-16 10:02:06,210 - DEBUG - {"eventTime": "2023-06-16 10:02:06", "msgType": "heartbeat"}
+2023-06-16 10:03:06,344 - DEBUG - {"eventTime": "2023-06-16 10:03:06", "msgType": "heartbeat"}
+2023-06-16 10:04:06,479 - DEBUG - {"eventTime": "2023-06-16 10:04:06", "msgType": "heartbeat"}
+2023-06-16 13:38:07,187 - DEBUG - Debug message
+2023-06-16 13:38:07,188 - INFO - Info message
+2023-06-16 13:38:07,190 - WARNING - Warning message
+2023-06-16 13:38:07,191 - ERROR - Error message
+2023-06-16 13:38:07,193 - CRITICAL - Critical message
+2023-06-16 13:38:07,205 - DEBUG - {"eventTime": "2023-06-16 13:38:07", "msgType": "heartbeat"}
+2023-06-16 13:41:26,827 - DEBUG - Debug message
+2023-06-16 13:41:26,828 - INFO - Info message
+2023-06-16 13:41:26,829 - WARNING - Warning message
+2023-06-16 13:41:26,830 - ERROR - Error message
+2023-06-16 13:41:26,830 - CRITICAL - Critical message
+2023-06-16 13:41:26,842 - DEBUG - {"eventTime": "2023-06-16 13:41:26", "msgType": "heartbeat"}
+2023-06-16 13:42:27,104 - DEBUG - {"eventTime": "2023-06-16 13:42:27", "msgType": "heartbeat"}
+2023-06-16 13:43:27,237 - DEBUG - {"eventTime": "2023-06-16 13:43:27", "msgType": "heartbeat"}
+2023-06-16 13:44:27,371 - DEBUG - {"eventTime": "2023-06-16 13:44:27", "msgType": "heartbeat"}
+2023-06-16 13:45:27,505 - DEBUG - {"eventTime": "2023-06-16 13:45:27", "msgType": "heartbeat"}
+2023-06-16 13:46:27,786 - DEBUG - {"eventTime": "2023-06-16 13:46:27", "msgType": "heartbeat"}
+2023-06-16 13:47:27,922 - DEBUG - {"eventTime": "2023-06-16 13:47:27", "msgType": "heartbeat"}
+2023-06-16 13:48:28,055 - DEBUG - {"eventTime": "2023-06-16 13:48:28", "msgType": "heartbeat"}
+2023-06-16 13:49:28,193 - DEBUG - {"eventTime": "2023-06-16 13:49:28", "msgType": "heartbeat"}
+2023-06-16 13:50:28,327 - DEBUG - {"eventTime": "2023-06-16 13:50:28", "msgType": "heartbeat"}
