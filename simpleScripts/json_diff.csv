@@ -1,0 +1,76 @@
+Type,Key,Original Value,New Value
+Common,connPortVlan2,,
+Common,flowPointId,,
+Common,tunnelId1,,null
+Common,sVcid,810202,
+Common,serviceSpeed,100408,null
+Common,timeMultiplier,,
+Common,qosCir,20000,
+Common,deviceId,150.139.0.179,150.139.0.179
+Common,bfdSessionName1,,
+Common,apsProtectGroupName,,
+Common,portDesc,psrtest03241,济南CTVPN35130B
+Common,upServiceIp2,150.139.0.144,null
+Common,timeInterval,,
+Common,upServiceIp1,150.139.0.143,null
+Common,bfdSessionName2,,
+Common,proSwitchId,,
+Common,deviceIp,150.139.0.179,150.139.0.179
+Common,direction,,
+Common,connPortIp2,,
+Common,pwClassName,,
+Common,bfdDiscriminator1,,
+Common,vpwsName,,810272
+Common,connPort1,,GigabitEthernet1/1/1
+Common,extendInputParameterB,,100002386015
+Common,pwOutLabel2,,null
+Common,acPortVlan,1605,1215
+Common,bfdDiscriminator2,,
+Common,pwgInstanceName,,
+Common,sPWName,,null
+Common,mVcid,810201,810272
+Common,extendInputParameterA,,济南CTVPN35130B
+Common,vlanType,dot1q,dot1q
+Common,acName,,
+Common,connPortIp1,,
+Common,connPort2,,
+Common,pwInLabel1,,null
+Common,mBFDName,,null
+Common,cipName,,null
+Common,ipv4Mtu,2000,2000
+Common,sBFDName,,null
+Common,tunnelId2,,null
+Common,pwInLabel2,,null
+Common,connPortVlan1,,1215
+Common,qosPir,20000,
+Common,pwOutLabel1,,null
+Common,mPWName,,null
+Common,acPort,GigabitEthernet1/1/1,GigabitEthernet1/1/1
+Common,qosSpeedTemplateName,10M,
+Only in JSON1,downServiceIp1,,Key not found in JSON2
+Only in JSON1,testname,CX600ASBR,Key not found in JSON2
+Only in JSON1,downServiceIp2,,Key not found in JSON2
+Only in JSON1,TASKTYPE,viewconfiglet,Key not found in JSON2
+Only in JSON2,lspName2,Key not found in JSON1,null
+Only in JSON2,null,Key not found in JSON1,null
+Only in JSON2,tunnelOutLabel,Key not found in JSON1,null
+Only in JSON2,tunnelOutLabe2,Key not found in JSON1,null
+Only in JSON2,tunnelInLabel,Key not found in JSON1,null
+Only in JSON2,l3ProfileName1,Key not found in JSON1,
+Only in JSON2,tunnelPortName2,Key not found in JSON1,null
+Only in JSON2,deviceVersion,Key not found in JSON1,
+Only in JSON2,remoteConnPort1,Key not found in JSON1,
+Only in JSON2,deviceClass,Key not found in JSON1,STN-ASBR
+Only in JSON2,remoteConnPortIp1,Key not found in JSON1,
+Only in JSON2,remoteConnPortIp2,Key not found in JSON1,
+Only in JSON2,tunnelInLabe2,Key not found in JSON1,null
+Only in JSON2,lspName1,Key not found in JSON1,null
+Only in JSON2,deviceType,Key not found in JSON1,
+Only in JSON2,remoteConnPortVlan1,Key not found in JSON1,1215
+Only in JSON2,mtuTemplateName,Key not found in JSON1,
+Only in JSON2,remoteConnPortVlan2,Key not found in JSON1,
+Only in JSON2,deviceVender,Key not found in JSON1,
+Only in JSON2,l3ProfileName2,Key not found in JSON1,
+Only in JSON2,remoteConnPort2,Key not found in JSON1,
+Only in JSON2,pwMode,Key not found in JSON1,
+Only in JSON2,tunnelPortName1,Key not found in JSON1,null

@@ -1,0 +1,16 @@
+{
+    "datas": [
+        {
+            "area": "聊城",
+            "devname": "10.57.98.13",
+            "devIP": "10.57.98.13",
+            "devstype": "PON专业",
+            "vendorname": "华为",
+            "devtypeDesc": "5800",
+            "devtype": "5800T",
+            "egion": "PON",
+            "egionDesc": "OLT",
+            "OSVersion": "v1_detal"
+        }
+    ]
+}

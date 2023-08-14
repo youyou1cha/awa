@@ -1,0 +1,2 @@
+2023-08-11 09:55:27.205 wxauto.py[158] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2023-08-11 09:55:34.176 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
